@@ -1,7 +1,40 @@
 # git
 first gitproject
 
-cmd
+create a new repository on the command line
+```bash
+  cd C:\Users\rajuc\Desktop\chat-application
+```
+```bash
+  git init
+```
+```bash
+  git add README.md
+```
+```bash
+  git commit -m "first commit"
+```
+```bash
+  git branch -M main
+```
+```bash
+  git remote add origin https://github.com/RajuChatterjee/gitcode.git
+```
+```bash
+  git push -u origin main
+```
+
+push an existing repository from the command line
+```bash
+  git remote add origin https://github.com/RajuChatterjee/gitcode.git
+```
+```bash
+  git branch -M main
+```
+```bash
+  git push -u origin main
+```
+cmd p code
 ```bash
 cd C:\Users\rajuc\Desktop\mern-chat-app
 ```
